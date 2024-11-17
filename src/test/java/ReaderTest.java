@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertInstanceOf;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class ReaderTest {
-    private static final String FILE_PATH = "src\\main\\resources\\test_logs\\hidden_logs.txt";
+    private static final String FILE_PATH = "src/main/resources/test_logs/hidden_logs.txt";
 
     @Test
     void testValidHttpPath() {
